@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+	System.out.println("Test");
         Scanner s = new Scanner(System.in);
         Vertices vertices = new Vertices();
         Read_Informations_From_CSV_File read_informations_from_csv_file = new Read_Informations_From_CSV_File();
